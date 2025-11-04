@@ -16,6 +16,6 @@ public class DemoController {
 
     @GetMapping("/service")
     public String service(){
-        return "This is google cloud service"
+        return "This is google cloud service";
     }
 }
