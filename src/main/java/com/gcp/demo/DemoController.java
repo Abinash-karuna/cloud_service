@@ -18,8 +18,4 @@ public class DemoController {
     public String service(){
         return "This is google cloud service";
     }
-    @GetMapping("/final")
-    public String finalTest(){
-        return "this is the final";
-    }
 }
